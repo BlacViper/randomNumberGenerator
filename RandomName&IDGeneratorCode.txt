@@ -1,0 +1,77 @@
+=====================================================================================
+Random Name Generator :
+=====================================================================================
+
+=====================================================================================
+Step 1: Add this dependency to your pom.xml
+=====================================================================================
+
+        
+<dependency>
+    <groupId>com.github.javafaker</groupId>
+    <artifactId>javafaker</artifactId>
+    <version>0.12</version>
+</dependency>	
+
+=====================================================================================
+Step 2: Run this code
+=====================================================================================
+
+
+package randomNames;
+
+import com.github.javafaker.Faker;
+
+public class randomNameGenerator {
+
+	public static void main(String[] args) {
+		Faker faker = new Faker();
+
+		String name = faker.name().fullName();
+		String firstName = faker.name().firstName();
+		String lastName = faker.name().lastName();
+		System.out.print(firstName+" "+lastName);
+	}
+
+}
+
+
+
+=====================================================================================
+2. Random PatientID, Rx & Tx Number Generator:
+=====================================================================================
+
+package randomNumberGenerator;
+
+import java.util.Random;
+
+public class randomNumberGenerator {
+
+	public static void main(String[] args) {
+		
+		String [] patientDetails = generateID();
+		String patientID=patientDetails[0];
+		String rxNumber=patientDetails[1];
+		String txNumber=patientDetails[2];
+		
+		System.out.println(patientID);
+		System.out.println(rxNumber);
+		System.out.println(txNumber);
+	}
+	
+	
+	public static String[] generateID(){
+		;
+	    Random r = new Random();
+	    long numbers = r.nextInt(1_000_000_000)               // Last 9 digits
+	             + (r.nextInt(90) + 10) * 1_000_000_000L;
+
+	     String patientID = ("9" + numbers);
+	     String rxNumber = ("8" + numbers);
+	     String txNumber = ("7" + numbers);
+	     
+	     String patientDetails[] = {patientID,rxNumber,txNumber};
+	     return patientDetails;
+	}
+
+}
