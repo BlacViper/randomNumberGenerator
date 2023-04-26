@@ -1,0 +1,122 @@
+Rxps Call Payload :
+
+<RXPSMessage MessageID="999999999" MessageSentDate="2019-08-17T14:30:47.000+00:00" MessageStatus="Success" POStransid="12345" RegisterID="1543" Service="Printinresp" Version="100">
+    <Printinq>
+        <Header>
+            <ChainID>439</ChainID>
+            <StoreID>2948</StoreID>
+            <NHINID>136488</NHINID>
+        </Header>
+        <Cust>
+            <hHID>hid1</hHID>
+            <loyalty_card>lo1</loyalty_card>
+            <loyalty_phone_number/>
+        </Cust>
+        <Patient>
+            <PatientCode>26538</PatientCode>
+            <LastName>hgPFPUOAqhjliCBKxbwQ</LastName>
+            <FirstName>hgPFPUOAqhjliCBKxbwQ</FirstName>
+            <BirthDate>1993-04-26</BirthDate>
+            <PostalCode>String</PostalCode>
+            <LoyaltyCardID> string </LoyaltyCardID>
+            <RxNumber>858657187</RxNumber>
+            <RefillNumber>0</RefillNumber>
+            <TxNumber>758657187</TxNumber>
+            <FilledDate>2022-09-01T18:04:28Z</FilledDate>
+            <TransferinI>No</TransferinI>
+            <TransferinE>No</TransferinE>
+            <Newpatient>Yes</Newpatient>
+            <Govflag>No</Govflag>
+        <PartialFillIndicator>P</PartialFillIndicator></Patient>
+        <Patient>
+            <PatientCode>26538</PatientCode>
+            <LastName>hgPFPUOAqhjliCBKxbwQ</LastName>
+            <FirstName>hgPFPUOAqhjliCBKxbwQ</FirstName>
+            <BirthDate>1993-04-26</BirthDate>
+            <PostalCode>String</PostalCode>
+            <LoyaltyCardID> string </LoyaltyCardID>
+            <RxNumber>858657187</RxNumber>
+            <RefillNumber>0</RefillNumber>
+            <TxNumber>758657188</TxNumber>
+            <FilledDate>2022-09-01T18:04:28Z</FilledDate>
+            <TransferinI>No</TransferinI>
+            <TransferinE>No</TransferinE>
+            <Newpatient>No</Newpatient>
+            <Govflag>No</Govflag>
+        <PartialFillIndicator>P</PartialFillIndicator></Patient>
+        <Patient>
+            <PatientCode>26538</PatientCode>
+            <LastName>hgPFPUOAqhjliCBKxbwQ</LastName>
+            <FirstName>hgPFPUOAqhjliCBKxbwQ</FirstName>
+            <BirthDate>1993-04-26</BirthDate>
+            <PostalCode>String</PostalCode>
+            <LoyaltyCardID> string </LoyaltyCardID>
+            <RxNumber>858657187</RxNumber>
+            <RefillNumber>0</RefillNumber>
+            <TxNumber>758657189</TxNumber>
+            <FilledDate>2022-09-01T18:04:28Z</FilledDate>
+            <TransferinI>No</TransferinI>
+            <TransferinE>No</TransferinE>
+            <Newpatient>No</Newpatient>
+            <Govflag>Yes</Govflag>
+        <PartialFillIndicator>P</PartialFillIndicator></Patient>
+        <Patient>
+            <PatientCode>26538</PatientCode>
+            <LastName>hgPFPUOAqhjliCBKxbwQ</LastName>
+            <FirstName>hgPFPUOAqhjliCBKxbwQ</FirstName>
+            <BirthDate>1993-04-26</BirthDate>
+            <PostalCode>String</PostalCode>
+            <LoyaltyCardID> string </LoyaltyCardID>
+            <RxNumber>858657187</RxNumber>
+            <RefillNumber>0</RefillNumber>
+            <TxNumber>758657190</TxNumber>
+            <FilledDate>2022-09-01T18:04:28Z</FilledDate>
+            <TransferinI>No</TransferinI>
+            <TransferinE>No</TransferinE>
+            <Newpatient>No</Newpatient>
+            <Govflag>No</Govflag>
+        <PartialFillIndicator>P</PartialFillIndicator></Patient>
+        <Patient>
+            <PatientCode>26538</PatientCode>
+            <LastName>hgPFPUOAqhjliCBKxbwQ</LastName>
+            <FirstName>hgPFPUOAqhjliCBKxbwQ</FirstName>
+            <BirthDate>1993-04-26</BirthDate>
+            <PostalCode>String</PostalCode>
+            <LoyaltyCardID> string </LoyaltyCardID>
+            <RxNumber>858657187</RxNumber>
+            <RefillNumber>0</RefillNumber>
+            <TxNumber>758657191</TxNumber>
+            <FilledDate>2022-09-01T18:04:28Z</FilledDate>
+            <TransferinI>No</TransferinI>
+            <TransferinE>No</TransferinE>
+            <Newpatient>No</Newpatient>
+            <Govflag>No</Govflag>
+        <PartialFillIndicator>P</PartialFillIndicator></Patient>
+        <Patient>
+            <PatientCode>26538</PatientCode>
+            <LastName>hgPFPUOAqhjliCBKxbwQ</LastName>
+            <FirstName>hgPFPUOAqhjliCBKxbwQ</FirstName>
+            <BirthDate>1993-04-26</BirthDate>
+            <PostalCode>String</PostalCode>
+            <LoyaltyCardID> string </LoyaltyCardID>
+            <RxNumber>858657187</RxNumber>
+            <RefillNumber>0</RefillNumber>
+            <TxNumber>758657192</TxNumber>
+            <FilledDate>2022-09-01T18:04:28Z</FilledDate>
+            <TransferinI>No</TransferinI>
+            <TransferinE>No</TransferinE>
+            <Newpatient>No</Newpatient>
+            <Govflag>No</Govflag>
+        <PartialFillIndicator>C</PartialFillIndicator></Patient>
+
+    </Printinq>
+</RXPSMessage>
+
+17:56:40.625 [main] DEBUG com.intuit.karate - response time in milliseconds: 79.74
+1 < 200
+1 < content-type: application/xml
+1 < date: Wed, 26 Apr 2023 12:26:40 GMT
+1 < server: istio-envoy
+1 < transfer-encoding: chunked
+1 < x-envoy-upstream-service-time: 14
+<RXPSMessage Version="100" Service="PrintinqResp" MessageStatus="Success" MessageID="999999999" MessageSentDate="2023-04-26T12:26:40" RegisterID="1543" POStransid="12345"><PrintinqResp><Header><ChainID>439</ChainID><StoreID>2948</StoreID><NHINID>136488</NHINID></Header><Printlines><printlines>&amp;lt;RXPSQR01&amp;gt;</printlines><printlines>&amp;lt;END&amp;gt;</printlines></Printlines></PrintinqResp></RXPSMessage>
