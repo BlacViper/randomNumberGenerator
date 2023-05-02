@@ -120,3 +120,6 @@ Rxps Call Payload :
 1 < transfer-encoding: chunked
 1 < x-envoy-upstream-service-time: 14
 <RXPSMessage Version="100" Service="PrintinqResp" MessageStatus="Success" MessageID="999999999" MessageSentDate="2023-04-26T12:26:40" RegisterID="1543" POStransid="12345"><PrintinqResp><Header><ChainID>439</ChainID><StoreID>2948</StoreID><NHINID>136488</NHINID></Header><Printlines><printlines>&amp;lt;RXPSQR01&amp;gt;</printlines><printlines>&amp;lt;END&amp;gt;</printlines></Printlines></PrintinqResp></RXPSMessage>
+
+
+kkpYNKcvuuPFExoJxksP
