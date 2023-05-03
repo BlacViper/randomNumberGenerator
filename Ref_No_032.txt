@@ -139,3 +139,21 @@ rxrp.rx_table rx with (nolock)
 join rxrp.Patient_Offer po with(nolock) on po.TID=rx.ID
 where rx.Eligibility='in-queue' and rx.Rx_Type='DRUGS' and po.Offer_Staus='qrcode' 
 
+
+--Queries to modified updated, before prod execution need to replace inner queries with proper ID's
+---First execute patientoffertable before executing rx_table
+update rxrp.Patient_Offer set Offer_Staus='ec-noqrcode' where ID in (
+select po.ID FROM
+rxrp.rx_table rx with (nolock)
+join rxrp.Patient_Offer po with(nolock) on po.TID=rx.ID
+where rx.Eligibility='in-queue' and rx.Rx_Type='DRUGS' and po.Offer_Staus='qrcode'
+)
+
+---second query that has to be executed after the above query
+
+update rxrp.RX_Table set Eligibility='noalloc' where id in
+(select po.TID FROM
+rxrp.rx_table rx with (nolock)
+join rxrp.Patient_Offer po with(nolock) on po.TID=rx.ID
+where rx.Eligibility='in-queue' and rx.Rx_Type='DRUGS' and po.Offer_Staus='qrcode' )
+
