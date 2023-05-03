@@ -123,3 +123,19 @@ Rxps Call Payload :
 
 
 kkpYNKcvuuPFExoJxksP
+
+
+
+select po.ID FROM
+rxrp.rx_table rx with (nolock)
+join rxrp.Patient_Offer po with(nolock) on po.TID=rx.ID
+where rx.Eligibility='in-queue' and rx.Rx_Type='DRUGS' and po.Offer_Staus='qrcode'
+
+
+---second query that has to be executed after the above query
+
+select po.TID FROM
+rxrp.rx_table rx with (nolock)
+join rxrp.Patient_Offer po with(nolock) on po.TID=rx.ID
+where rx.Eligibility='in-queue' and rx.Rx_Type='DRUGS' and po.Offer_Staus='qrcode' 
+
