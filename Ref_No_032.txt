@@ -157,3 +157,5 @@ rxrp.rx_table rx with (nolock)
 join rxrp.Patient_Offer po with(nolock) on po.TID=rx.ID
 where rx.Eligibility='in-queue' and rx.Rx_Type='DRUGS' and po.Offer_Staus='qrcode' )
 
+
+kNHKzoAsEqtkUPCbHmAM
