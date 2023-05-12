@@ -1,0 +1,228 @@
+1 > POST https://rxie.qa1.westus.aks.az.albertsons.com/rxieeventlistener/v1/event/partner/chc/eopn/patientnotification.wsdl
+1 > Content-Type: text/xml;charset=UTF-8
+1 > SOAPAction: PatientNotification
+1 > User-Agent: Jersey/2.30 (HttpUrlConnection 11.0.12)
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+    <soapenv:Header/>
+    <soapenv:Body>
+        <PatientNotificationRequest clientID="136488" messageDate="2022-06-07T10:38:52.645Z" messageID="025102022_001" service="patientnotify" source="eps" version="11.0">
+            <patientData>
+                <rxcomPatientID>986059321</rxcomPatientID>
+                <patientLastName>DHAKRKrRLULFTjSLcFnk</patientLastName>
+                <patientFirstName>DHAKRKrRLULFTjSLcFnk</patientFirstName>
+                <patientGender>M</patientGender>
+                <patientLanguage>en</patientLanguage>
+                <patientBirthDate>1993-05-12T18:00:00Z</patientBirthDate>
+                <patientAddress1>125 Arden Dr</patientAddress1>
+                <patientCity>Idaho Falls</patientCity>
+                <patientState>ID</patientState>
+                <patientZipCode>83404</patientZipCode>
+                <patientAddressType>1</patientAddressType>
+                <contactWhenReady>N</contactWhenReady>
+                <contactEmailAddress/>
+                <contactPhoneNumber>8408949911</contactPhoneNumber>
+                <patientMobileService>N</patientMobileService>
+                <loyaltyCardOptOut>N</loyaltyCardOptOut>
+                <programs>
+                    <program>
+                        <programID>53738150</programID>
+                        <programName>Covid_Vaccination</programName>
+                        <pnmContactPreference>03</pnmContactPreference>
+                        <optOut>N</optOut>
+                    </program>
+                </programs>
+                <patientDisallowAutofill>N</patientDisallowAutofill>
+                <patientContactInfo>
+                    <patientEmailPreferences>D</patientEmailPreferences>
+                    <patientPhonePreferences>W</patientPhonePreferences>
+                    <patientSMSPreferences>D</patientSMSPreferences>
+                    <patientMobilePhone>8409849804</patientMobilePhone>
+                    <patientWorkPhone>8408949848</patientWorkPhone>
+                </patientContactInfo>
+                <patientCode>1018</patientCode>
+                <patientDailyNotificationSchedule>
+                    <day>
+                        <messageType>1</messageType>
+                        <dayOfWeek>FRIDAY</dayOfWeek>
+                        <startTime>07:00</startTime>
+                        <endTime>19:00</endTime>
+                        <patientTimeZone>US/CENTRAL</patientTimeZone>
+                    </day>
+                    <day>
+                        <messageType>1</messageType>
+                        <dayOfWeek>MONDAY</dayOfWeek>
+                        <startTime>03:00</startTime>
+                        <endTime>15:00</endTime>
+                        <patientTimeZone>US/CENTRAL</patientTimeZone>
+                    </day>
+                    <day>
+                        <messageType>1</messageType>
+                        <dayOfWeek>SATURDAY</dayOfWeek>
+                        <startTime>08:00</startTime>
+                        <endTime>20:00</endTime>
+                        <patientTimeZone>US/CENTRAL</patientTimeZone>
+                    </day>
+                    <day>
+                        <messageType>1</messageType>
+                        <dayOfWeek>SUNDAY</dayOfWeek>
+                        <startTime>09:00</startTime>
+                        <endTime>21:00</endTime>
+                        <patientTimeZone>US/CENTRAL</patientTimeZone>
+                    </day>
+                    <day>
+                        <messageType>1</messageType>
+                        <dayOfWeek>THURSDAY</dayOfWeek>
+                        <startTime>05:00</startTime>
+                        <endTime>17:00</endTime>
+                        <patientTimeZone>US/CENTRAL</patientTimeZone>
+                    </day>
+                    <day>
+                        <messageType>1</messageType>
+                        <dayOfWeek>TUESDAY</dayOfWeek>
+                        <startTime>03:00</startTime>
+                        <endTime>14:00</endTime>
+                        <patientTimeZone>US/CENTRAL</patientTimeZone>
+                    </day>
+                    <day>
+                        <messageType>1</messageType>
+                        <dayOfWeek>WEDNESDAY</dayOfWeek>
+                        <startTime>04:00</startTime>
+                        <endTime>16:00</endTime>
+                        <patientTimeZone>US/CENTRAL</patientTimeZone>
+                    </day>
+                </patientDailyNotificationSchedule>
+            </patientData>
+            <pharmacyData>
+                <pharmacyChainID>7007</pharmacyChainID>
+                <pharmacyNPI>1234567893</pharmacyNPI>
+                <pharmacyNCPDP>70070115</pharmacyNCPDP>
+            </pharmacyData>
+            <prescriberData>
+                <prescriberLastName>SMALDONE</prescriberLastName>
+                <prescriberFirstName>RACHEL</prescriberFirstName>
+                <prescriberMiddleName>DALE</prescriberMiddleName>
+                <prescriberAddress1>550 1ST AVE</prescriberAddress1>
+                <prescriberCity>NEW YORK</prescriberCity>
+                <prescriberState>NY</prescriberState>
+                <prescriberZipCode>10016</prescriberZipCode>
+                <prescriberPhoneNumber>2323232342</prescriberPhoneNumber>
+                <prescriberFaxNumber>2323232322</prescriberFaxNumber>
+                <prescriberID>
+                    <prescriberIDType>01</prescriberIDType>
+                    <prescriberIDValue>1427405984</prescriberIDValue>
+                </prescriberID>
+                <prescriberID>
+                    <prescriberIDType>08</prescriberIDType>
+                    <prescriberIDValue>TX</prescriberIDValue>
+                </prescriberID>
+                <prescriberDisallowAutofill>N</prescriberDisallowAutofill>
+            </prescriberData>
+            <orderData/>
+            <transactionData>
+                <prescriptionNumber>886059321</prescriptionNumber>
+                <refillNum>0</refillNum>
+                <txNumber>786059321</txNumber>
+                <filledDate>2022-01-21T12:15:19Z</filledDate>
+                <drugSchedule>6</drugSchedule>
+                <drugName>Coumadin 1 Mg Tab B-Ms</drugName>
+                <productIDType>03</productIDType>
+                <productID>00056016990</productID>
+                <drugGPI>90100065104210</drugGPI>
+                <drugMultiSource>O</drugMultiSource>
+                <daysSupply>10</daysSupply>
+                <quantityDispensed>15.0</quantityDispensed>
+                <drugUnit>TAB</drugUnit>
+                <writtenDate>2022-01-21T06:00:00Z</writtenDate>
+                <lastFilledDate>2022-01-21T12:15:19Z</lastFilledDate>
+                <refillsAuthorized>2</refillsAuthorized>
+                <autoFillEnabled>N</autoFillEnabled>
+                <dawCode>1</dawCode>
+                <refillsRemaining>2</refillsRemaining>
+                <expirationDate>2022-10-18T05:00:00Z</expirationDate>
+                <rxOrigin>0</rxOrigin>
+                <partialFillStatus>C</partialFillStatus>
+                <willCallReadyDate>2022-06-07T10:38:52.789Z</willCallReadyDate>
+                <fillLocation>L</fillLocation>
+                <contactReason>4</contactReason>
+                <promiseTime>2022-01-22T12:00:00Z</promiseTime>
+                <drugDisallowAutofill>N</drugDisallowAutofill>
+                <price>29.12</price>
+                <pickupType>2</pickupType>
+                <sigText>every</sigText>
+                <centralFillOnly>N</centralFillOnly>
+                <drugOnHandQuantity>2894.0</drugOnHandQuantity>
+            </transactionData>
+            <insurancePlanData>
+                <bin>2313</bin>
+                <pcn>12352345</pcn>
+                <cardholderID>AS1231231</cardholderID>
+                <groupID>12341241</groupID>
+                <planType>CO</planType>
+                <planDisallowAutofill>N</planDisallowAutofill>
+                <billingSequence>0</billingSequence>
+            </insurancePlanData>
+        </PatientNotificationRequest>
+    </soapenv:Body>
+</soapenv:Envelope>
+
+14:08:38.992 response time in milliseconds: 66.89
+1 < 200
+1 < accept: text/xml, text/html, image/gif, image/jpeg, *; q=.2, */*; q=.2
+1 < content-length: 298
+1 < content-type: text/xml;charset=utf-8
+1 < date: Fri, 12 May 2023 08:38:38 GMT
+1 < server: istio-envoy
+1 < soapaction: ""
+1 < x-envoy-upstream-service-time: 18
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Header/><SOAP-ENV:Body><PatientNotificationResponse messageDate="2022-06-07T10:38:52.645Z" messageID="025102022_001" service="patientnotify" status="success" version="11.0"/></SOAP-ENV:Body></SOAP-ENV:Envelope>
+
+
+RXPS CALL -----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+1 > POST https://rxrp.qa1.westus.aks.az.albertsons.com/incentivebackend/qr-eligibility
+1 > Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsIng1dCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyIsImtpZCI6Ii1LSTNROW5OUjdiUm9meG1lWm9YcWJIWkdldyJ9.eyJhdWQiOiIwMDAwMDAwMi0wMDAwLTAwMDAtYzAwMC0wMDAwMDAwMDAwMDAiLCJpc3MiOiJodHRwczovL3N0cy53aW5kb3dzLm5ldC9iN2Y2MDRhMC0wMGE5LTQxODgtOTI0OC00MmYzYTVhYWMyZTkvIiwiaWF0IjoxNjgzODgwNDI5LCJuYmYiOjE2ODM4ODA0MjksImV4cCI6MTY4Mzg4NDMyOSwiYWlvIjoiRTJaZ1lGQTRzN3B1bnJYbDhXdS9kdDBOS0xHeUJRQT0iLCJhcHBpZCI6IjYzMzg1YjFkLWQ1NTktNDdiMy04Yjc5LWZkOTM4YzUxOTNlZiIsImFwcGlkYWNyIjoiMSIsImlkcCI6Imh0dHBzOi8vc3RzLndpbmRvd3MubmV0L2I3ZjYwNGEwLTAwYTktNDE4OC05MjQ4LTQyZjNhNWFhYzJlOS8iLCJvaWQiOiI2NDUxZTcyMy0xNWY1LTQwMTUtYWNkMy00ZDkzOTAyZGU3NzUiLCJyaCI6IjAuQVE0QW9BVDJ0NmtBaUVHU1NFTHpwYXJDNlFJQUFBQUFBQUFBd0FBQUFBQUFBQUFPQUFBLiIsInN1YiI6IjY0NTFlNzIzLTE1ZjUtNDAxNS1hY2QzLTRkOTM5MDJkZTc3NSIsInRlbmFudF9yZWdpb25fc2NvcGUiOiJOQSIsInRpZCI6ImI3ZjYwNGEwLTAwYTktNDE4OC05MjQ4LTQyZjNhNWFhYzJlOSIsInV0aSI6IjNhYy1EeDc3V2txbTNQdVZzajZZQUEiLCJ2ZXIiOiIxLjAifQ.JevXBdA8vELEJnFHVQi9y9UgdCrsA1i_V1KCTaOxjL2ssBcFxcDa-ZPnrBpNCfKW1bE-hbBRStWda2jRyzIcDDWbkprJxibpkH6adWzXUV8RbZGGlw8TPoXRKfqAVeO4QHLQQYncN8Rm31hsmOt9D71yjGTi7c1_Nl6G9vZMKnusKzuKkBCfmJ5TFHR_oRGoehLqM4p5eUYdQ-LnuaGNwayovB7QalVEj_O7xC7-jcphvy8f9RiOV-uKSbYmju9o5YywetD2ziUE8mTpHS1K3gqz-raL-rzh7p1CLtrC8X1SnKt-F-65cI8seC4uLPhDVyG1ioRzGUHuc9NyVR7b9Q
+1 > Content-Type: application/xml;charset=UTF-8
+1 > Ocp-Apim-Subscription-Key: b63249e878e9438ba5f4d29597b4e03b
+1 > User-Agent: Jersey/2.30 (HttpUrlConnection 11.0.12)
+<RXPSMessage MessageID="999999999" MessageSentDate="2019-08-17T14:30:47.000+00:00" MessageStatus="Success" POStransid="12345" RegisterID="1543" Service="Printinresp" Version="100">
+    <Printinq>
+        <Header>
+            <ChainID>439</ChainID>
+            <StoreID>2948</StoreID>
+            <NHINID>136488</NHINID>
+        </Header>
+        <Cust>
+            <hHID>hid1</hHID>
+            <loyalty_card>lo1</loyalty_card>
+            <loyalty_phone_number/>
+        </Cust>
+        <Patient>
+            <PatientCode>30321</PatientCode>
+            <LastName>DHAKRKrRLULFTjSLcFnk</LastName>
+            <FirstName>DHAKRKrRLULFTjSLcFnk</FirstName>
+            <BirthDate>1993-05-12</BirthDate>
+            <PostalCode>String</PostalCode>
+            <LoyaltyCardID> string </LoyaltyCardID>
+            <RxNumber>886059321</RxNumber>
+            <RefillNumber>0</RefillNumber>
+            <TxNumber>786059321</TxNumber>
+            <FilledDate>2022-09-01T18:04:28Z</FilledDate>
+            <TransferinI>No</TransferinI>
+            <TransferinE>No</TransferinE>
+            <Newpatient>Yes</Newpatient>
+            <Govflag>No</Govflag>
+            <PartialFillIndicator>N</PartialFillIndicator>
+        </Patient>
+
+    </Printinq>
+</RXPSMessage>
+
+14:08:49.666 response time in milliseconds: 84.25
+1 < 200
+1 < content-type: application/xml
+1 < date: Fri, 12 May 2023 08:38:49 GMT
+1 < server: istio-envoy
+1 < transfer-encoding: chunked
+1 < x-envoy-upstream-service-time: 28
+<RXPSMessage Version="100" Service="PrintinqResp" MessageStatus="Success" MessageID="999999999" MessageSentDate="2023-05-12T08:38:49" RegisterID="1543" POStransid="12345"><PrintinqResp><Header><ChainID>439</ChainID><StoreID>2948</StoreID><NHINID>136488</NHINID></Header><Printlines><printlines>&amp;lt;RXPSQR01&amp;gt;</printlines><printlines>&amp;lt;END&amp;gt;</printlines></Printlines></PrintinqResp></RXPSMessage>
