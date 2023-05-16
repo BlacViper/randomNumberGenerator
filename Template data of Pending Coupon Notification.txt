@@ -1,0 +1,44 @@
+{
+	"requestId": "5039_PENDING_COUPON_NOTIFICATION",
+	"notificationSource": "RxRP",
+	"transactionStatus": "PENDING_COUPON_NOTIFICATION",
+	"patient": {
+		"id": "975070102",
+		"firstName": "oCjSSjXCDuZysFHqgIip"
+	},
+	"pharmacy": {
+		"storeNumber": "2948",
+		"banner": "SAFEWAY"
+	},
+	"commData": {
+		"contactPreference": [
+			"email"
+		],
+		"contactEmailAddress": "guru.raj@albertsons.com",
+		"contactSMSNumber": "none",
+		"subject": "Success! Your Coupon is Ready to Use"
+	},
+	"publisherData": {
+		"uuid": "9361ceac-8429-3429-b988-e1dd53cf080d",
+		"bannerQRUrl": "https://www-qa1.safeway.com/rxoffer",
+		"bannerGroceryUrl": "https://www-qa1.safeway.com",
+		"bannerLogo": "https://rxrp.dev.westus.aks.az.albertsons.com/rx-offer/static/media/safeways.4fe7500729fe04ccda3d.png",
+		"couponBadge": "https://rxrp.dev.westus.aks.az.albertsons.com/rx-offer/static/media/emailBadgewithText.33f605f9218c330d196f.png",
+		"bannerContactUsEmail": "web.comments@safeway.com",
+		"fromEmail": "noreply@info.safewaypharmacy.com",
+		"unsubscribeUrl": "https://www-qa1.safeway.com/rxoffer/unsubscribeconfirmation?ref=afbe5f25-dfcd-318b-a51a-59acd0c95aa9",
+		"listOfCoupon": {
+			"listOfAllocatedCoupon": [
+				{
+					"couponValue": "$25 off grocery",
+					"description": "Get $25 off grocery",
+					"imageUrl": "https://www-qa1.safeway.com/rxoffer/static/media/email25OffNew.31e79d76eef4a1c106eb.png",
+					"offerExpDate": "Expires December 31, 2023",
+					"disclaimerText": "Offer valid until 12-31-2023 for new or transferred prescriptions, except OR where offer is only valid for new prescriptions. Eligible customers are those who have not filled a prescription at any Albertsons Companies banner pharmacy in the last 12 months with a new prescription, or any existing customer with a transferred prescription. Excludes immunizations. Limited to participating stores. Fill your first prescription to receive an initial $25 discount to use on your next grocery purchase of $25 or more. Thereafter, complete 5 prescriptions filled at our pharmacy to qualify for additional $50 discount your next grocery purchase of $50 or more. Each qualifying prescription will be tracked digitally via our system. Redeem offer to loyalty account online. Limit 1 per customer per 12 months.  Not valid: (i) for prescriptions previously filled by or transferred from another Albertsons Companies banner store; or (ii) in IL, IN, IA, NJ, NY, and AR; (iii) for beneficiaries of state or federal healthcare programs, such as Medicare, Medicaid, or Tricare, or if otherwise prohibited by law"
+				}
+			],
+			"listOfUnclaimedCoupon": []
+		}
+	},
+	"devices": []
+}
